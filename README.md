@@ -3,6 +3,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Language: Verilog/SystemVerilog](https://img.shields.io/badge/Language-Verilog-blue.svg)](https://github.com/LinkH-IC/AXI-Lite-Controlled-CRC-Accelerator.git)
 
+Phase 1 (RTL & Sim) Complete; Phase 2 (Synthesis) in progress
+
 ## 📌 Project Overview
 This project features a high-performance hardware **CRC (Cyclic Redundancy Check) Accelerator** controlled via the **AXI4-Lite** bus protocol. It is specifically designed to offload data integrity verification tasks from the CPU in embedded systems or SoC environments.
 
