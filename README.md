@@ -44,8 +44,8 @@ $$G(x) = x^{32} + x^{26} + x^{23} + x^{22} + x^{16} + x^{12} + x^{11} + x^{10} +
 ## 🛠 Tools & Environment
 * **HDL**: Verilog
 * **Simulation**: Icarus Verilog / GTKWave
-<!--* **Synthesis**: Xilinx Vivado / Synopsys Design Compiler (ASIC Flow)-->
-<!--* **Verification**: Python (cocotb) or SystemVerilog Testbench-->
+* **Synthesis**: Xilinx Vivado / Synopsys Design Compiler (ASIC Flow)
+* **Verification**: Python (cocotb) or SystemVerilog Testbench
 
 ---
 
