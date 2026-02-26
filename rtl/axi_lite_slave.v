@@ -174,7 +174,6 @@ module axi_lite_slave #(
         if (!ARESETn) begin
             s_rvalid        <= 0;
             s_rresp         <= 2'b00;
-            reg_crc_result  <= 32'h0000_0000;
         end
         else begin
             if (re_en) begin

@@ -1,0 +1,20 @@
+# Read SystemVerilog
+read_verilog -sv ../rtl/*.v
+
+# Set top module
+hierarchy -check -top axi_crc_top
+
+# Define clock (100 MHz example)
+# create_clock -period 10 ACLK
+
+# Generic synthesis
+synth -top axi_crc_top
+
+# Print Time Analysis
+ltp
+
+# Print Status
+stat
+
+# Write netlist
+write_verilog top_synth.v
