@@ -862,936 +862,580 @@ checking module $paramod\crc_engine\ADDR_WIDTH=8\DATA_WIDTH=32..
 checking module axi_crc_top..
 found and reported 0 problems.
 
-6. Executing LTP pass (find longest path).
-Warning: Detected loop at $0\reg_crc_result[31:0] [31] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [31] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [30] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [30] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [29] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [29] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [28] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [28] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [27] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [27] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [26] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [26] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [25] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [25] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [24] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [24] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [23] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [23] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [22] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [22] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [21] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [21] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [20] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [20] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [19] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [19] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [18] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [18] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [17] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [17] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [16] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [16] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [15] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [15] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [14] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [14] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [13] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [13] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [12] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [12] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [11] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [11] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [10] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [10] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [9] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [9] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [8] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [8] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [7] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [7] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [6] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [6] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [5] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [5] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [4] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [4] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [3] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [3] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [2] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [2] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_bvalid[0:0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_bresp[1:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_bresp[1:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at \w_receive in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at \w_receive in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [31] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [31] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [30] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [30] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [29] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [29] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [28] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [28] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [27] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [27] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [26] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [26] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [25] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [25] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [24] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [24] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [23] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [23] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [22] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [22] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [21] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [21] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [20] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [20] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [19] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [19] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [18] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [18] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [17] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [17] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [16] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [16] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [15] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [15] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [14] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [14] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [13] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [13] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [12] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [12] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [11] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [11] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [10] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [10] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [9] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [9] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [8] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [8] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [7] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [7] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [6] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [6] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [5] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [5] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [4] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [4] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [3] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [3] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [2] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [2] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_bvalid[0:0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_bresp[1:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_bresp[1:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at \w_receive in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\aw_receive[0:0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n630_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [31] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n979_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n979_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [30] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n975_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n975_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [29] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n971_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n971_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [28] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n967_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n967_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [27] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n963_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n963_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [26] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n959_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n959_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [25] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n955_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n955_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [24] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n951_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n951_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [23] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n947_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n947_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [22] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n943_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n943_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [21] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n939_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n939_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [20] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n935_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n935_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [19] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n931_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n931_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [18] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n927_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n927_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [17] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n923_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n923_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [16] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n919_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n919_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [15] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n915_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n915_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [14] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n911_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n911_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [13] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n907_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n907_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [12] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n903_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n903_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [11] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n899_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n899_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [10] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n895_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n895_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [9] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n891_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n891_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [8] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n887_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n887_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [7] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n883_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n883_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [6] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n879_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n879_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [5] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n875_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n875_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [4] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n871_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n871_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [3] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n867_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n867_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [2] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n863_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n863_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n859_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n859_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n855_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n855_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [31] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n851_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n851_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [30] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n845_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n845_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [29] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n839_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n839_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [28] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n833_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n833_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [27] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n827_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n827_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [26] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n821_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n821_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [25] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n815_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n815_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [24] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n809_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n809_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [23] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n803_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n803_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [22] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n797_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n797_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [21] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n791_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n791_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [20] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n785_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n785_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [19] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n779_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n779_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [18] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n773_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n773_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [17] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n767_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n767_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [16] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n761_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n761_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [15] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n755_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n755_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [14] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n749_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n749_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [13] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n743_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n743_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [12] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n737_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n737_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [11] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n731_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n731_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [10] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n725_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n725_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [9] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n719_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n719_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [8] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n713_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n713_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [7] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n707_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n707_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [6] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n701_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n701_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [5] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n695_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n695_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [4] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n689_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n689_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [3] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n683_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n683_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [2] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n677_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n677_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n671_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n671_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n665_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n665_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_wready[0:0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n625_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at \s_rvalid in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at \s_rresp [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at \s_rresp [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [31] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [31] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [30] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [30] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [29] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [29] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [28] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [28] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [27] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [27] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [26] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [26] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [25] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [25] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [24] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [24] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [23] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [23] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [22] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [22] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [21] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [21] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [20] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [20] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [19] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [19] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [18] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [18] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [17] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [17] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [16] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [16] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [15] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [15] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [14] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [14] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [13] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [13] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [12] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [12] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [11] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [11] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [10] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [10] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [9] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [9] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [8] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [8] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [7] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [7] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [6] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [6] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [5] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [5] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [4] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [4] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [3] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [3] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [2] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [2] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_bresp[1:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [7] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n652_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [6] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n650_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [5] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n648_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [4] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n646_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [3] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n644_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [2] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n642_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n640_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n638_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [31] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [31] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [30] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [30] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [29] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [29] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [28] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [28] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [27] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [27] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [26] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [26] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [25] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [25] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [24] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [24] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [23] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [23] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [22] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [22] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [21] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [21] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [20] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [20] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [19] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [19] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [18] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [18] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [17] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [17] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [16] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [16] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [15] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [15] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [14] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [14] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [13] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [13] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [12] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [12] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [11] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [11] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [10] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [10] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [9] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [9] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [8] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [8] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [7] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [7] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [6] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [6] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [5] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [5] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [4] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [4] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [3] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [3] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [2] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [2] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_bvalid[0:0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_bresp[1:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_bresp[1:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [31] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [31] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [30] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [30] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [29] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [29] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [28] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [28] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [27] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [27] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [26] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [26] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [25] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [25] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [24] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [24] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [23] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [23] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [22] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [22] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [21] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [21] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [20] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [20] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [19] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [19] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [18] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [18] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [17] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [17] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [16] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [16] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [15] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [15] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [14] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [14] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [13] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [13] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [12] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [12] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [11] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [11] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [10] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [10] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [9] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [9] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [8] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [8] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [7] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [7] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [6] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [6] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [5] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [5] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [4] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [4] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [3] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [3] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [2] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [2] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_bvalid[0:0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_bresp[1:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_bresp[1:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\w_receive[0:0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n634_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n632_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\aw_receive[0:0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n628_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [31] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [31] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [31] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [30] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [30] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [30] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [29] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [29] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [29] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [28] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [28] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [28] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [27] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [27] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [27] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [26] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [26] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [26] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [25] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [25] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [25] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [24] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [24] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [24] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [23] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [23] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [23] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [22] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [22] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [22] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [21] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [21] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [21] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [20] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [20] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [20] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [19] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [19] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [19] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [18] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [18] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [18] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [17] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [17] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [17] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [16] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [16] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [16] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [15] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [15] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [15] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [14] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [14] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [14] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [13] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [13] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [13] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [12] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [12] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [12] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [11] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [11] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [11] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [10] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [10] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [10] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [9] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [9] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [9] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [8] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [8] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [8] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [7] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [7] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [7] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [6] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [6] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [6] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [5] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [5] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [5] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [4] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [4] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [4] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [3] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [3] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [3] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [2] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [2] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [2] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_initial[31:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [31] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [31] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [31] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [30] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [30] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [30] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [29] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [29] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [29] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [28] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [28] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [28] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [27] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [27] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [27] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [26] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [26] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [26] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [25] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [25] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [25] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [24] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [24] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [24] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [23] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [23] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [23] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [22] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [22] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [22] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [21] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [21] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [21] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [20] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [20] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [20] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [19] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [19] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [19] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [18] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [18] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [18] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [17] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [17] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [17] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [16] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [16] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [16] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [15] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [15] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [15] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [14] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [14] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [14] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [13] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [13] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [13] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [12] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [12] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [12] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [11] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [11] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [11] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [10] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [10] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [10] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [9] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [9] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [9] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [8] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [8] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [8] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [7] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [7] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [7] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [6] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [6] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [6] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [5] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [5] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [5] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [4] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [4] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [4] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [3] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [3] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [3] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [2] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [2] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [2] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_data[31:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [7] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [7] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [6] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [6] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [5] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [5] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [4] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [4] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [3] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [3] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [2] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [2] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [31] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [31] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [30] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [30] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [29] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [29] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [28] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [28] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [27] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [27] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [26] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [26] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [25] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [25] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [24] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [24] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [23] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [23] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [22] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [22] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [21] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [21] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [20] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [20] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [19] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [19] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [18] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [18] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [17] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [17] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [16] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [16] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [15] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [15] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [14] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [14] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [13] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [13] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [12] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [12] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [11] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [11] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [10] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [10] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [9] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [9] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [8] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [8] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [7] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [7] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [6] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [6] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [5] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [5] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [4] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [4] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [3] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [3] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [2] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [2] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_crc_result[31:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rdata[31:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_bvalid[0:0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_bresp[1:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_bresp[1:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\w_receive[0:0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n634_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n632_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\aw_receive[0:0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [7] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n652_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [6] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n650_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [5] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n648_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [4] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n646_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [3] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n644_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [2] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n642_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n640_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_waddr[7:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $abc$4030$new_n638_ in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_awready[0:0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_wready[0:0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_wready[0:0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\re_en[0:0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rvalid[0:0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rresp[1:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rresp[1:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_raddr[7:0] [7] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rresp[1:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\s_rresp[1:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_raddr[7:0] [6] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_raddr[7:0] [5] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_raddr[7:0] [4] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_raddr[7:0] [3] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_raddr[7:0] [2] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_raddr[7:0] [1] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
-Warning: Detected loop at $0\reg_raddr[7:0] [0] in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32
+6. Executing DFFLIBMAP pass (mapping DFF cells to sequential cells from liberty file).
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbn_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbn_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtn_1' - skipping.
+Warning: Found unsupported expression 'D&DE|IQ&!DE' in pin attribute of cell 'sky130_fd_sc_hd__edfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&DE|IQ&!DE' in pin attribute of cell 'sky130_fd_sc_hd__edfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_4' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfsbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfsbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_4' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_4' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxbp_2' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_2' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_4' - skipping.
+  cell sky130_fd_sc_hd__dfxtp_1 (noninv, pins=3, area=20.02) is a direct match for cell type $_DFF_P_.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbn_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbn_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtn_1' - skipping.
+  cell sky130_fd_sc_hd__dfrtn_1 (noninv, pins=4, area=25.02) is a direct match for cell type $_DFF_NN0_.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbn_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbn_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtn_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbn_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbn_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtn_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbn_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbn_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtn_1' - skipping.
+Warning: Found unsupported expression 'D&DE|IQ&!DE' in pin attribute of cell 'sky130_fd_sc_hd__edfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&DE|IQ&!DE' in pin attribute of cell 'sky130_fd_sc_hd__edfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_4' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfsbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfsbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_4' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_4' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxbp_2' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_2' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_4' - skipping.
+  cell sky130_fd_sc_hd__dfrtp_1 (noninv, pins=4, area=25.02) is a direct match for cell type $_DFF_PN0_.
+Warning: Found unsupported expression 'D&DE|IQ&!DE' in pin attribute of cell 'sky130_fd_sc_hd__edfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&DE|IQ&!DE' in pin attribute of cell 'sky130_fd_sc_hd__edfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_4' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfsbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfsbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_4' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_4' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxbp_2' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_2' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_4' - skipping.
+  cell sky130_fd_sc_hd__dfstp_2 (noninv, pins=4, area=26.28) is a direct match for cell type $_DFF_PN1_.
+Warning: Found unsupported expression 'D&DE|IQ&!DE' in pin attribute of cell 'sky130_fd_sc_hd__edfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&DE|IQ&!DE' in pin attribute of cell 'sky130_fd_sc_hd__edfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_4' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfsbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfsbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_4' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_4' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxbp_2' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_2' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_4' - skipping.
+Warning: Found unsupported expression 'D&DE|IQ&!DE' in pin attribute of cell 'sky130_fd_sc_hd__edfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&DE|IQ&!DE' in pin attribute of cell 'sky130_fd_sc_hd__edfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_4' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfsbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfsbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_4' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_4' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxbp_2' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_2' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_4' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbn_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbn_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtn_1' - skipping.
+  cell sky130_fd_sc_hd__dfbbn_1 (noninv, pins=6, area=32.53) is a direct match for cell type $_DFFSR_NNN_.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbn_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbn_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtn_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbn_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbn_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtn_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbn_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbn_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtn_1' - skipping.
+Warning: Found unsupported expression 'D&DE|IQ&!DE' in pin attribute of cell 'sky130_fd_sc_hd__edfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&DE|IQ&!DE' in pin attribute of cell 'sky130_fd_sc_hd__edfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_4' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfsbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfsbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_4' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_4' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxbp_2' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_2' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_4' - skipping.
+  cell sky130_fd_sc_hd__dfbbp_1 (noninv, pins=6, area=32.53) is a direct match for cell type $_DFFSR_PNN_.
+Warning: Found unsupported expression 'D&DE|IQ&!DE' in pin attribute of cell 'sky130_fd_sc_hd__edfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&DE|IQ&!DE' in pin attribute of cell 'sky130_fd_sc_hd__edfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_4' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfsbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfsbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_4' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_4' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxbp_2' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_2' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_4' - skipping.
+Warning: Found unsupported expression 'D&DE|IQ&!DE' in pin attribute of cell 'sky130_fd_sc_hd__edfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&DE|IQ&!DE' in pin attribute of cell 'sky130_fd_sc_hd__edfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_4' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfsbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfsbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_4' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_4' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxbp_2' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_2' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_4' - skipping.
+Warning: Found unsupported expression 'D&DE|IQ&!DE' in pin attribute of cell 'sky130_fd_sc_hd__edfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&DE|IQ&!DE' in pin attribute of cell 'sky130_fd_sc_hd__edfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_4' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfsbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfsbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_4' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_4' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxbp_2' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_2' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_4' - skipping.
+  create mapping for $_DFF_NP0_ from mapping for $_DFF_NN0_.
+  create mapping for $_DFF_PP0_ from mapping for $_DFF_PN0_.
+  create mapping for $_DFF_PP1_ from mapping for $_DFF_PN1_.
+  create mapping for $_DFFSR_NPN_ from mapping for $_DFFSR_NNN_.
+  create mapping for $_DFFSR_PPN_ from mapping for $_DFFSR_PNN_.
+  create mapping for $_DFFSR_NNP_ from mapping for $_DFFSR_NNN_.
+  create mapping for $_DFFSR_NPP_ from mapping for $_DFFSR_NNP_.
+  create mapping for $_DFFSR_PNP_ from mapping for $_DFFSR_PNN_.
+  create mapping for $_DFFSR_PPP_ from mapping for $_DFFSR_PNP_.
+  create mapping for $_DFF_NN1_ from mapping for $_DFF_NN0_.
+  create mapping for $_DFF_NP1_ from mapping for $_DFF_NN1_.
+  create mapping for $_DFF_N_ from mapping for $_DFF_P_.
+  final dff cell mappings:
+    sky130_fd_sc_hd__dfxtp_1 _DFF_N_ (.CLK(~C), .D( D), .Q( Q));
+    sky130_fd_sc_hd__dfxtp_1 _DFF_P_ (.CLK( C), .D( D), .Q( Q));
+    sky130_fd_sc_hd__dfrtn_1 _DFF_NN0_ (.CLK_N( C), .D( D), .Q( Q), .RESET_B( R));
+    sky130_fd_sc_hd__dfrtn_1 _DFF_NN1_ (.CLK_N( C), .D(~D), .Q(~Q), .RESET_B( R));
+    sky130_fd_sc_hd__dfrtn_1 _DFF_NP0_ (.CLK_N( C), .D( D), .Q( Q), .RESET_B(~R));
+    sky130_fd_sc_hd__dfrtn_1 _DFF_NP1_ (.CLK_N( C), .D(~D), .Q(~Q), .RESET_B(~R));
+    sky130_fd_sc_hd__dfrtp_1 _DFF_PN0_ (.CLK( C), .D( D), .Q( Q), .RESET_B( R));
+    sky130_fd_sc_hd__dfstp_2 _DFF_PN1_ (.CLK( C), .D( D), .Q( Q), .SET_B( R));
+    sky130_fd_sc_hd__dfrtp_1 _DFF_PP0_ (.CLK( C), .D( D), .Q( Q), .RESET_B(~R));
+    sky130_fd_sc_hd__dfstp_2 _DFF_PP1_ (.CLK( C), .D( D), .Q( Q), .SET_B(~R));
+    sky130_fd_sc_hd__dfbbn_1 _DFFSR_NNN_ (.CLK_N( C), .D( D), .Q( Q), .Q_N(~Q), .RESET_B( R), .SET_B( S));
+    sky130_fd_sc_hd__dfbbn_1 _DFFSR_NNP_ (.CLK_N( C), .D( D), .Q( Q), .Q_N(~Q), .RESET_B(~R), .SET_B( S));
+    sky130_fd_sc_hd__dfbbn_1 _DFFSR_NPN_ (.CLK_N( C), .D( D), .Q( Q), .Q_N(~Q), .RESET_B( R), .SET_B(~S));
+    sky130_fd_sc_hd__dfbbn_1 _DFFSR_NPP_ (.CLK_N( C), .D( D), .Q( Q), .Q_N(~Q), .RESET_B(~R), .SET_B(~S));
+    sky130_fd_sc_hd__dfbbp_1 _DFFSR_PNN_ (.CLK( C), .D( D), .Q( Q), .Q_N(~Q), .RESET_B( R), .SET_B( S));
+    sky130_fd_sc_hd__dfbbp_1 _DFFSR_PNP_ (.CLK( C), .D( D), .Q( Q), .Q_N(~Q), .RESET_B(~R), .SET_B( S));
+    sky130_fd_sc_hd__dfbbp_1 _DFFSR_PPN_ (.CLK( C), .D( D), .Q( Q), .Q_N(~Q), .RESET_B( R), .SET_B(~S));
+    sky130_fd_sc_hd__dfbbp_1 _DFFSR_PPP_ (.CLK( C), .D( D), .Q( Q), .Q_N(~Q), .RESET_B(~R), .SET_B(~S));
+Mapping DFF cells in module `$paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32':
+  mapped 60 $_DFF_PN0_ cells to \sky130_fd_sc_hd__dfrtp_1 cells.
+  mapped 97 $_DFF_P_ cells to \sky130_fd_sc_hd__dfxtp_1 cells.
+Mapping DFF cells in module `$paramod\crc_engine\ADDR_WIDTH=8\DATA_WIDTH=32':
+Mapping DFF cells in module `\axi_crc_top':
 
-Longest topological path in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32 (length=22):
-    0: \s_awaddr [7]
-    1: $abc$4030$new_n622_ (via $abc$4030$auto$blifparse.cc:371:parse_blif$4254)
-    2: $abc$4030$new_n623_ (via $abc$4030$auto$blifparse.cc:371:parse_blif$4255)
-    3: $abc$4030$new_n624_ (via $abc$4030$auto$blifparse.cc:371:parse_blif$4256)
-    4: $0\s_awready[0:0] (via $abc$4030$auto$blifparse.cc:371:parse_blif$4261)
-    5: \s_awready (via $auto$simplemap.cc:496:simplemap_adff$3072)
-    6: $abc$4030$new_n631_ (via $abc$4030$auto$blifparse.cc:371:parse_blif$4263)
-    7: $abc$4030$new_n632_ (via $abc$4030$auto$blifparse.cc:371:parse_blif$4264)
-    8: $0\aw_receive[0:0] (via $abc$4030$auto$blifparse.cc:371:parse_blif$4265)
-    9: \aw_receive (via $auto$simplemap.cc:496:simplemap_adff$3071)
-   10: $abc$4030$new_n634_ (via $abc$4030$auto$blifparse.cc:371:parse_blif$4266)
-   11: $abc$4030$new_n636_ (via $abc$4030$auto$blifparse.cc:371:parse_blif$4268)
-   12: $0\w_receive[0:0] (via $abc$4030$auto$blifparse.cc:371:parse_blif$4269)
-   13: \w_receive (via $auto$simplemap.cc:496:simplemap_adff$3070)
-   14: $abc$4030$new_n997_ (via $abc$4030$auto$blifparse.cc:371:parse_blif$4629)
-   15: $0\crc_en[0:0] (via $abc$4030$auto$blifparse.cc:371:parse_blif$4631)
-   16: \crc_en (via $auto$simplemap.cc:496:simplemap_adff$3074)
-   17: $0\reg_crc_result[31:0] [31] (via $abc$4030$auto$blifparse.cc:371:parse_blif$4247)
-   18: \reg_crc_result [31] (via $auto$simplemap.cc:496:simplemap_adff$3109)
-   19: $abc$4030$new_n571_ (via $abc$4030$auto$blifparse.cc:371:parse_blif$4203)
-   20: $abc$4030$new_n574_ (via $abc$4030$auto$blifparse.cc:371:parse_blif$4206)
-   21: $0\s_rdata[31:0] [31] (via $abc$4030$auto$blifparse.cc:371:parse_blif$4207)
-   22: \s_rdata [31] (via $auto$simplemap.cc:420:simplemap_dff$3153)
+7. Executing ABC pass (technology mapping using ABC).
 
-Longest topological path in $paramod\crc_engine\ADDR_WIDTH=8\DATA_WIDTH=32 (length=33):
-    0: \crcIn [3]
-    1: $abc$4632$new_n234_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$4770)
-    2: $abc$4632$new_n616_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5152)
-    3: $abc$4632$new_n617_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5153)
-    4: $abc$4632$new_n618_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5154)
-    5: $abc$4632$new_n619_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5155)
-    6: $abc$4632$new_n620_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5156)
-    7: $abc$4632$new_n621_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5157)
-    8: $abc$4632$new_n622_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5158)
-    9: $abc$4632$new_n623_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5159)
-   10: $abc$4632$new_n624_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5160)
-   11: $abc$4632$new_n625_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5161)
-   12: $abc$4632$new_n626_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5162)
-   13: $abc$4632$new_n627_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5163)
-   14: $abc$4632$new_n628_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5164)
-   15: $abc$4632$new_n629_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5165)
-   16: $abc$4632$new_n630_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5166)
-   17: $abc$4632$new_n631_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5167)
-   18: $abc$4632$new_n632_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5168)
-   19: $abc$4632$new_n633_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5169)
-   20: $abc$4632$new_n634_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5170)
-   21: $abc$4632$new_n635_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5171)
-   22: $abc$4632$new_n636_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5172)
-   23: $abc$4632$new_n637_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5173)
-   24: $abc$4632$new_n638_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5174)
-   25: $abc$4632$new_n639_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5175)
-   26: $abc$4632$new_n640_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5176)
-   27: $abc$4632$new_n641_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5177)
-   28: $abc$4632$new_n642_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5178)
-   29: $abc$4632$new_n643_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5179)
-   30: $abc$4632$new_n644_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5180)
-   31: $abc$4632$new_n645_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5181)
-   32: $abc$4632$new_n646_ (via $abc$4632$auto$blifparse.cc:371:parse_blif$5182)
-   33: \crc_out [20] (via $abc$4632$auto$blifparse.cc:371:parse_blif$5183)
+7.1. Extracting gate netlist of module `$paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32' to `<abc-temp-dir>/input.blif'..
+Extracted 600 gates and 842 wires to a netlist network with 242 inputs and 156 outputs.
+
+7.1.1. Executing ABC.
+Running ABC command: berkeley-abc -s -f <abc-temp-dir>/abc.script 2>&1
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_lib -w /home/link/projects/axi_crc/synth/./lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+ABC: Parsing finished successfully.  Parsing time =     0.06 sec
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__decap_12" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__decap_3" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__decap_4" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__decap_6" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__decap_8" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfbbn_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfbbn_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfbbp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfrbp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfrbp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfrtn_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfrtp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfrtp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfrtp_4".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfsbp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfsbp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfstp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfstp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfstp_4".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfxbp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfxbp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfxtp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfxtp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfxtp_4".
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__diode_2" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__dlclkp_1" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__dlclkp_2" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__dlclkp_4" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlrbn_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlrbn_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlrbp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlrbp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlrtn_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlrtn_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlrtn_4".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlrtp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlrtp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlrtp_4".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlxbn_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlxbn_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlxbp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlxtn_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlxtn_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlxtn_4".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlxtp_1".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__ebufn_1".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__ebufn_2".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__ebufn_4".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__ebufn_8".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__edfxbp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__edfxtp_1".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__einvn_0".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__einvn_1".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__einvn_2".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__einvn_4".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__einvn_8".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__einvp_1".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__einvp_2".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__einvp_4".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__einvp_8".
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__lpflow_bleeder_1" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__lpflow_decapkapwr_12" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__lpflow_decapkapwr_3" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__lpflow_decapkapwr_4" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__lpflow_decapkapwr_6" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__lpflow_decapkapwr_8" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__lpflow_inputisolatch_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfbbn_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfbbn_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfbbp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfrbp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfrbp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfrtn_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfrtp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfrtp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfrtp_4".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfsbp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfsbp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfstp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfstp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfstp_4".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfxbp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfxbp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfxtp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfxtp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfxtp_4".
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__sdlclkp_1" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__sdlclkp_2" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__sdlclkp_4" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sedfxbp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sedfxbp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sedfxtp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sedfxtp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sedfxtp_4".
+ABC: Library "sky130_fd_sc_hd__tt_025C_1v80" from "/home/link/projects/axi_crc/synth/./lib/sky130_fd_sc_hd__tt_025C_1v80.lib" has 334 cells (94 skipped: 63 seq; 13 tri-state; 18 no func; 0 dont_use).  Time =     0.08 sec
+ABC: Memory =   16.01 MB. Time =     0.08 sec
+ABC: Warning: Detected 9 multi-output gates (for example, "sky130_fd_sc_hd__fa_1").
+ABC: + strash 
+ABC: + ifraig 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + retime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+7.1.2. Re-integrating ABC results.
+ABC RESULTS:   sky130_fd_sc_hd__a2111oi_0 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__a211o_1 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__a21o_1 cells:       34
+ABC RESULTS:   sky130_fd_sc_hd__a21oi_1 cells:       88
+ABC RESULTS:   sky130_fd_sc_hd__a222oi_1 cells:       23
+ABC RESULTS:   sky130_fd_sc_hd__a22oi_1 cells:        9
+ABC RESULTS:   sky130_fd_sc_hd__a311o_1 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__a31oi_1 cells:        9
+ABC RESULTS:   sky130_fd_sc_hd__a32o_1 cells:        2
+ABC RESULTS:   sky130_fd_sc_hd__and2_0 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__and3b_1 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__and4_1 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__clkinv_1 cells:        5
+ABC RESULTS:   sky130_fd_sc_hd__lpflow_isobufsrc_1 cells:        2
+ABC RESULTS:   sky130_fd_sc_hd__mux2_1 cells:       47
+ABC RESULTS:   sky130_fd_sc_hd__nand2_1 cells:       77
+ABC RESULTS:   sky130_fd_sc_hd__nand3_1 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__nor2_1 cells:       35
+ABC RESULTS:   sky130_fd_sc_hd__nor3_1 cells:        3
+ABC RESULTS:   sky130_fd_sc_hd__nor4_1 cells:        3
+ABC RESULTS:   sky130_fd_sc_hd__nor4bb_1 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__o21ai_0 cells:       36
+ABC RESULTS:   sky130_fd_sc_hd__or3_1 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__or4_1 cells:        4
+ABC RESULTS:        internal signals:      444
+ABC RESULTS:           input signals:      242
+ABC RESULTS:          output signals:      156
+Removing temp directory.
+
+7.2. Extracting gate netlist of module `$paramod\crc_engine\ADDR_WIDTH=8\DATA_WIDTH=32' to `<abc-temp-dir>/input.blif'..
+Extracted 845 gates and 909 wires to a netlist network with 64 inputs and 32 outputs.
+
+7.2.1. Executing ABC.
+Running ABC command: berkeley-abc -s -f <abc-temp-dir>/abc.script 2>&1
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_lib -w /home/link/projects/axi_crc/synth/./lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+ABC: Parsing finished successfully.  Parsing time =     0.06 sec
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__decap_12" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__decap_3" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__decap_4" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__decap_6" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__decap_8" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfbbn_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfbbn_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfbbp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfrbp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfrbp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfrtn_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfrtp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfrtp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfrtp_4".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfsbp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfsbp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfstp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfstp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfstp_4".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfxbp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfxbp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfxtp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfxtp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfxtp_4".
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__diode_2" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__dlclkp_1" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__dlclkp_2" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__dlclkp_4" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlrbn_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlrbn_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlrbp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlrbp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlrtn_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlrtn_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlrtn_4".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlrtp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlrtp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlrtp_4".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlxbn_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlxbn_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlxbp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlxtn_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlxtn_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlxtn_4".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlxtp_1".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__ebufn_1".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__ebufn_2".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__ebufn_4".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__ebufn_8".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__edfxbp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__edfxtp_1".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__einvn_0".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__einvn_1".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__einvn_2".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__einvn_4".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__einvn_8".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__einvp_1".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__einvp_2".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__einvp_4".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__einvp_8".
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__lpflow_bleeder_1" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__lpflow_decapkapwr_12" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__lpflow_decapkapwr_3" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__lpflow_decapkapwr_4" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__lpflow_decapkapwr_6" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__lpflow_decapkapwr_8" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__lpflow_inputisolatch_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfbbn_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfbbn_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfbbp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfrbp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfrbp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfrtn_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfrtp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfrtp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfrtp_4".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfsbp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfsbp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfstp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfstp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfstp_4".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfxbp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfxbp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfxtp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfxtp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sdfxtp_4".
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__sdlclkp_1" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__sdlclkp_2" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "sky130_fd_sc_hd__sdlclkp_4" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sedfxbp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sedfxbp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sedfxtp_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sedfxtp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__sedfxtp_4".
+ABC: Library "sky130_fd_sc_hd__tt_025C_1v80" from "/home/link/projects/axi_crc/synth/./lib/sky130_fd_sc_hd__tt_025C_1v80.lib" has 334 cells (94 skipped: 63 seq; 13 tri-state; 18 no func; 0 dont_use).  Time =     0.08 sec
+ABC: Memory =   16.01 MB. Time =     0.08 sec
+ABC: Warning: Detected 9 multi-output gates (for example, "sky130_fd_sc_hd__fa_1").
+ABC: + strash 
+ABC: + ifraig 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + retime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+7.2.2. Re-integrating ABC results.
+ABC RESULTS:   sky130_fd_sc_hd__xnor2_1 cells:      420
+ABC RESULTS:   sky130_fd_sc_hd__xnor3_1 cells:       52
+ABC RESULTS:   sky130_fd_sc_hd__xor2_1 cells:      164
+ABC RESULTS:   sky130_fd_sc_hd__xor3_1 cells:        1
+ABC RESULTS:        internal signals:      813
+ABC RESULTS:           input signals:       64
+ABC RESULTS:          output signals:       32
+Removing temp directory.
+
+7.3. Extracting gate netlist of module `\axi_crc_top' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+8. Executing LTP pass (find longest path).
+
+Longest topological path in $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32 (length=0):
+    0: \ARESETn
+
+Longest topological path in $paramod\crc_engine\ADDR_WIDTH=8\DATA_WIDTH=32 (length=0):
+    0: $abc$4632$new_n99_
 Warning: Detected loop at \crc_data [0] in axi_crc_top
 Warning: Detected loop at \crc_result [0] in axi_crc_top
 Warning: Detected loop at \crc_data [0] in axi_crc_top
@@ -3909,46 +3553,59 @@ Longest topological path in axi_crc_top (length=65):
    64: \crc_result [31] (via CRC)
    65: \crc_initial [0] (via Slave0)
 
-7. Printing statistics.
+9. Printing statistics.
 
 === $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32 ===
 
-   Number of wires:                490
-   Number of wire bits:            908
+   Number of wires:               1118
+   Number of wire bits:           1536
    Number of public wires:          30
    Number of public wire bits:     308
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
-   Number of cells:                757
-     $_ANDNOT_                      15
-     $_AND_                          5
-     $_AOI3_                        32
-     $_AOI4_                        32
-     $_DFF_PN0_                     60
-     $_DFF_P_                       97
-     $_MUX_                        221
-     $_NAND_                         2
-     $_NOR_                          6
-     $_NOT_                         97
-     $_OAI3_                         1
-     $_OAI4_                        64
-     $_ORNOT_                        9
-     $_OR_                         116
+   Number of cells:                543
+     sky130_fd_sc_hd__a2111oi_0      1
+     sky130_fd_sc_hd__a211o_1        1
+     sky130_fd_sc_hd__a21o_1        34
+     sky130_fd_sc_hd__a21oi_1       88
+     sky130_fd_sc_hd__a222oi_1      23
+     sky130_fd_sc_hd__a22oi_1        9
+     sky130_fd_sc_hd__a311o_1        1
+     sky130_fd_sc_hd__a31oi_1        9
+     sky130_fd_sc_hd__a32o_1         2
+     sky130_fd_sc_hd__and2_0         1
+     sky130_fd_sc_hd__and3b_1        1
+     sky130_fd_sc_hd__and4_1         1
+     sky130_fd_sc_hd__clkinv_1       5
+     sky130_fd_sc_hd__dfrtp_1       60
+     sky130_fd_sc_hd__dfxtp_1       97
+     sky130_fd_sc_hd__lpflow_isobufsrc_1      2
+     sky130_fd_sc_hd__mux2_1        47
+     sky130_fd_sc_hd__nand2_1       77
+     sky130_fd_sc_hd__nand3_1        1
+     sky130_fd_sc_hd__nor2_1        35
+     sky130_fd_sc_hd__nor3_1         3
+     sky130_fd_sc_hd__nor4_1         3
+     sky130_fd_sc_hd__nor4bb_1       1
+     sky130_fd_sc_hd__o21ai_0       36
+     sky130_fd_sc_hd__or3_1          1
+     sky130_fd_sc_hd__or4_1          4
 
 === $paramod\crc_engine\ADDR_WIDTH=8\DATA_WIDTH=32 ===
 
-   Number of wires:                816
-   Number of wire bits:            909
+   Number of wires:               1517
+   Number of wire bits:           1610
    Number of public wires:           3
    Number of public wire bits:      96
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
-   Number of cells:                845
-     $_NOT_                          6
-     $_XNOR_                        12
-     $_XOR_                        827
+   Number of cells:                637
+     sky130_fd_sc_hd__xnor2_1      420
+     sky130_fd_sc_hd__xnor3_1       52
+     sky130_fd_sc_hd__xor2_1       164
+     sky130_fd_sc_hd__xor3_1         1
 
 === axi_crc_top ===
 
@@ -3969,38 +3626,52 @@ Longest topological path in axi_crc_top (length=65):
      $paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32      1
      $paramod\crc_engine\ADDR_WIDTH=8\DATA_WIDTH=32      1
 
-   Number of wires:               1327
-   Number of wire bits:           2009
+   Number of wires:               2656
+   Number of wire bits:           3338
    Number of public wires:          54
    Number of public wire bits:     596
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
-   Number of cells:               1602
-     $_ANDNOT_                      15
-     $_AND_                          5
-     $_AOI3_                        32
-     $_AOI4_                        32
-     $_DFF_PN0_                     60
-     $_DFF_P_                       97
-     $_MUX_                        221
-     $_NAND_                         2
-     $_NOR_                          6
-     $_NOT_                        103
-     $_OAI3_                         1
-     $_OAI4_                        64
-     $_ORNOT_                        9
-     $_OR_                         116
-     $_XNOR_                        12
-     $_XOR_                        827
+   Number of cells:               1180
+     sky130_fd_sc_hd__a2111oi_0      1
+     sky130_fd_sc_hd__a211o_1        1
+     sky130_fd_sc_hd__a21o_1        34
+     sky130_fd_sc_hd__a21oi_1       88
+     sky130_fd_sc_hd__a222oi_1      23
+     sky130_fd_sc_hd__a22oi_1        9
+     sky130_fd_sc_hd__a311o_1        1
+     sky130_fd_sc_hd__a31oi_1        9
+     sky130_fd_sc_hd__a32o_1         2
+     sky130_fd_sc_hd__and2_0         1
+     sky130_fd_sc_hd__and3b_1        1
+     sky130_fd_sc_hd__and4_1         1
+     sky130_fd_sc_hd__clkinv_1       5
+     sky130_fd_sc_hd__dfrtp_1       60
+     sky130_fd_sc_hd__dfxtp_1       97
+     sky130_fd_sc_hd__lpflow_isobufsrc_1      2
+     sky130_fd_sc_hd__mux2_1        47
+     sky130_fd_sc_hd__nand2_1       77
+     sky130_fd_sc_hd__nand3_1        1
+     sky130_fd_sc_hd__nor2_1        35
+     sky130_fd_sc_hd__nor3_1         3
+     sky130_fd_sc_hd__nor4_1         3
+     sky130_fd_sc_hd__nor4bb_1       1
+     sky130_fd_sc_hd__o21ai_0       36
+     sky130_fd_sc_hd__or3_1          1
+     sky130_fd_sc_hd__or4_1          4
+     sky130_fd_sc_hd__xnor2_1      420
+     sky130_fd_sc_hd__xnor3_1       52
+     sky130_fd_sc_hd__xor2_1       164
+     sky130_fd_sc_hd__xor3_1         1
 
-8. Executing Verilog backend.
+10. Executing Verilog backend.
 Dumping module `$paramod\axi_lite_slave\ADDR_WIDTH=8\DATA_WIDTH=32'.
 Dumping module `$paramod\crc_engine\ADDR_WIDTH=8\DATA_WIDTH=32'.
 Dumping module `\axi_crc_top'.
 
-Warnings: 300 unique messages, 2916 total
-End of script. Logfile hash: 1e9b3b0c90
-CPU: user 0.70s system 0.02s, MEM: 24.25 MB total, 18.38 MB resident
+Warnings: 90 unique messages, 2282 total
+End of script. Logfile hash: b409cd5fa7
+CPU: user 0.79s system 0.04s, MEM: 46.30 MB total, 40.50 MB resident
 Yosys 0.9 (git sha1 1979e0b)
-Time spent: 20% 15x opt_clean (0 sec), 15% 12x opt_merge (0 sec), ...
+Time spent: 16% 15x opt_clean (0 sec), 12% 12x opt_merge (0 sec), ...

@@ -1,0 +1,83 @@
+OpenSTA 3.0.0 a6425a3364 Copyright (c) 2025, Parallax Software, Inc.
+License GPLv3: GNU GPL version 3 <http://gnu.org/licenses/gpl.html>
+
+This is free software, and you are free to change and redistribute it
+under certain conditions; type `show_copying' for details. 
+This program comes with ABSOLUTELY NO WARRANTY; for details type `show_warranty'.
+Warning 441: constraints.sdc line 3, set_input_delay relative to a clock defined on the same port/pin not allowed.
+Warning 441: constraints.sdc line 5, set_input_delay relative to a clock defined on the same port/pin not allowed.
+Startpoint: ARESETn (input port clocked by sys_clk)
+Endpoint: Slave0/_1571_ (recovery check against rising-edge clock sys_clk)
+Path Group: asynchronous
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock sys_clk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   1.00    1.00 ^ input external delay
+   0.00    1.00 ^ ARESETn (in)
+   0.00    1.00 ^ Slave0/_1571_/RESET_B (sky130_fd_sc_hd__dfrtp_1)
+           1.00   data arrival time
+
+  10.00   10.00   clock sys_clk (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+          10.00 ^ Slave0/_1571_/CLK (sky130_fd_sc_hd__dfrtp_1)
+   0.23   10.23   library recovery time
+          10.23   data required time
+---------------------------------------------------------
+          10.23   data required time
+          -1.00   data arrival time
+---------------------------------------------------------
+           9.23   slack (MET)
+
+
+Startpoint: s_awaddr[1] (input port clocked by sys_clk)
+Endpoint: Slave0/_1474_ (rising edge-triggered flip-flop clocked by sys_clk)
+Path Group: sys_clk
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock sys_clk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   1.00    1.00 v input external delay
+   0.00    1.00 v s_awaddr[1] (in)
+   1.80    2.80 ^ Slave0/_1252_/Y (sky130_fd_sc_hd__nor3_1)
+   1.38    4.19 ^ Slave0/_1254_/X (sky130_fd_sc_hd__a311o_1)
+   0.59    4.78 ^ Slave0/_1368_/X (sky130_fd_sc_hd__a21o_1)
+   0.20    4.98 ^ Slave0/_1371_/X (sky130_fd_sc_hd__a21o_1)
+   0.00    4.98 ^ Slave0/_1474_/D (sky130_fd_sc_hd__dfxtp_1)
+           4.98   data arrival time
+
+  10.00   10.00   clock sys_clk (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+          10.00 ^ Slave0/_1474_/CLK (sky130_fd_sc_hd__dfxtp_1)
+  -0.06    9.94   library setup time
+           9.94   data required time
+---------------------------------------------------------
+           9.94   data required time
+          -4.98   data arrival time
+---------------------------------------------------------
+           4.96   slack (MET)
+
+
+tns max 0.00
+wns max 0.00
+Clock                   Period          Waveform
+----------------------------------------------------
+sys_clk                  10.00        0.00      5.00
+max slew
+
+Pin                                    Limit    Slew   Slack
+------------------------------------------------------------
+Slave0/_1269_/Y                         1.49    3.10   -1.61 (VIOLATED)
+
+max capacitance
+
+Pin                                    Limit     Cap   Slack
+------------------------------------------------------------
+Slave0/_1269_/Y                         0.04    0.08   -0.04 (VIOLATED)
+

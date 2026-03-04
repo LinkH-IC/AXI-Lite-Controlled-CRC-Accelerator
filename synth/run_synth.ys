@@ -10,6 +10,12 @@ hierarchy -check -top axi_crc_top
 # Generic synthesis
 synth -top axi_crc_top
 
+# DFF Mapping
+dfflibmap -liberty ./lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+# Logic Mapping
+abc -liberty ./lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
 # Print Time Analysis
 ltp
 
