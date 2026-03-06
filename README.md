@@ -3,8 +3,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Language: Verilog/SystemVerilog](https://img.shields.io/badge/Language-Verilog-blue.svg)](https://github.com/LinkH-IC/AXI-Lite-Controlled-CRC-Accelerator.git)
 
-Phase 1 (RTL & Sim) Complete; Phase 2 (Synthesis) in progress
-
 ## 📌 Project Overview
 This project features a high-performance hardware **CRC (Cyclic Redundancy Check) Accelerator** controlled via the **AXI4-Lite** bus protocol. It is specifically designed to offload data integrity verification tasks from the CPU in embedded systems or SoC environments.
 
@@ -31,6 +29,9 @@ The engine implements the CRC calculation based on the generator polynomial $G(x
 $$G(x) = x^{32} + x^{26} + x^{23} + x^{22} + x^{16} + x^{12} + x^{11} + x^{10} + x^8 + x^7 + x^5 + x^4 + x^2 + x + 1$$
 
 ---
+## 📈 Architecture Diagram
+
+![Architecture Diagram](docs/architecture%20diagram.png)
 
 ## 🔢 Register Map
 | Offset | Name | Access | Description |
@@ -39,19 +40,13 @@ $$G(x) = x^{32} + x^{26} + x^{23} + x^{22} + x^{16} + x^{12} + x^{11} + x^{10} +
 | `0x04` | `CRC_DATA_IN` | W/R | Input Data: Writing to this register triggers the engine |
 | `0x08` | `CRC_RESULT` | R | Output: Holds the current 32-bit checksum |
 
+## 📊 Top module waveform
+![waveform](sim/Top_waveform.png)
+
 ---
 
 ## 🛠 Tools & Environment
 * **HDL**: Verilog
 * **Simulation**: Icarus Verilog / GTKWave
-* **Synthesis**: Xilinx Vivado / Synopsys Design Compiler (ASIC Flow)
-* **Verification**: Python (cocotb) or SystemVerilog Testbench
-
----
-
-## 🚀 Quick Start
-
-### 1. Clone the Repository
-```bash
-git clone [https://github.com/LinkH-IC/AXI-Lite-Controlled-CRC-Accelerator.git](https://github.com/LinkH-IC/AXI-Lite-Controlled-CRC-Accelerator.git)
-cd AXI-Lite-CRC-Accelerator
+* **Synthesis & STA**: Yosys / OpenSTA (sky130_fd_sc_hd__tt_025C_1v80.lib)
+* **Verification**: SystemVerilog Testbench

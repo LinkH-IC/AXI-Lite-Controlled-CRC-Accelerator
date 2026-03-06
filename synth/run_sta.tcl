@@ -6,10 +6,17 @@ link_design $top
 
 read_sdc constraints.sdc
 
-report_checks
-report_tns
-report_wns
 report_clock_properties
+
+report_checks
+
+puts "--- Setup (Max) Summary ---"
+report_wns
+report_tns
+puts "--- Hold (Min) Summary ---"
+report_wns -min
+report_tns -min
+
 report_check_types -max_slew -max_capacitance
 
 exit
