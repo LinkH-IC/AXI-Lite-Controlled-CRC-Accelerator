@@ -45,7 +45,7 @@ $$G(x) = x^{32} + x^{26} + x^{23} + x^{22} + x^{16} + x^{12} + x^{11} + x^{10} +
 
 ---
 
-## 🛠 Tools & Environment
+## Tools & Environment
 * **HDL**: Verilog
 * **Simulation**: Icarus Verilog / GTKWave
 * **Synthesis & STA**: Yosys / OpenSTA (sky130_fd_sc_hd__tt_025C_1v80.lib)
